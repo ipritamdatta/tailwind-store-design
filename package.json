@@ -1,0 +1,20 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "npx tailwindcss init",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss build -i css/style.css -o build/output.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
